@@ -3,12 +3,7 @@ import { TodoComponent } from '@/components/todo/todo.component'
 
 export const routes: Routes = [
   {
-    path: 'todo',
+    path: '',
     component: TodoComponent
-  },
-  {
-    path: '**',
-    pathMatch: 'full',
-    redirectTo: 'todo'
   }
 ];
