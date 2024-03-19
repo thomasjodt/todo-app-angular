@@ -1,0 +1,7 @@
+.todoList-wrapper {
+  @apply bg-background-200 p-8 rounded-xl mt-8 mx-auto min-w-fit max-w-3xl;
+}
+
+.todoList {
+  @apply flex flex-col gap-2;
+}

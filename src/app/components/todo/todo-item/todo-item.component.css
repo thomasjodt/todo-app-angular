@@ -1,0 +1,39 @@
+li {
+  @apply flex bg-background-300 px-4 py-2 rounded-lg items-center gap-2;
+}
+
+.todo input {
+  @apply flex-1 bg-background-300 outline-none read-only:cursor-default read-only:pointer-events-none read-only:select-none pointer-events-auto;
+}
+
+.todo input.editing {
+  @apply bg-background-400 selection:bg-neutral-600;
+}
+
+.todo button {
+  @apply hidden text-xs
+}
+
+.todo:hover button {
+  @apply block
+}
+
+.todo input[type="checkbox"] {
+  @apply w-5 h-5 ;
+}
+
+.todo.editing {
+  @apply bg-background-400;
+}
+
+.button-danger {
+  @apply text-red-500 hover:bg-red-400 hover:bg-opacity-20 transition-colors duration-300 bg-opacity-15 py-1 px-2 rounded-md;
+}
+
+.button-text {
+  @apply text-blue-500 hover:bg-blue-400 hover:bg-opacity-20 rounded-md transition-colors py-1 px-2;
+}
+
+li.editing {
+  @apply bg-background-400;
+}

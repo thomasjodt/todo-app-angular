@@ -1,0 +1,3 @@
+label {
+  @apply rounded-md px-4 py-2 has-[input:checked]:bg-cyan-600 bg-background-300 transition-colors select-none;
+}

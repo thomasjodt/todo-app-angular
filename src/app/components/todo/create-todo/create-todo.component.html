@@ -1,0 +1,9 @@
+<form (submit)="addTodo($event)">
+  <input
+    type="text"
+    name='newTodo'
+    [formControl]="newTodo"
+    placeholder='Escribe una nueva tarea'
+  />
+  <button>Agregar</button>
+</form>
